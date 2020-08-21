@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 import java.util.Map;
 
 @Component
-@RabbitListener(queues = "sms")//监听的是 sms
+@RabbitListener(queues = "sms")//监听的是 sms  git数据测试
 public class SmsListener {//消息的消费  就是客户  其实可以全写  tensquare_user的  这个是练习为了看的具体就下这里
 
     @Autowired
