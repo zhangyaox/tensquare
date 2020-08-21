@@ -1,0 +1,15 @@
+server:
+  port: 9009
+spring:
+  rabbitmq:
+    host: 192.168.229.132
+    username: user
+    password: use
+  application:
+    name: tenquare-sms
+aliyun:
+  sms:
+    accessKeyId: #放我的阿里云的 申请的短信发送的 key
+    accessKeySecret: #放我的阿里云的 申请的短信发送的
+    template_code: SMS_85735065 #模板 的 模板code
+    sign_name: 黑马 #签名
